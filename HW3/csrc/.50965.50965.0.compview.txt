@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1776416431.178001860, "rt":0.12, "ut":0.07, "st":0.04}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1776416430.637447743}
+{"VCS_COMP_START_TIME": 1776416430.637447743}
+{"VCS_COMP_END_TIME": 1776416431.336133093}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -kdb -l compile.log -f flist.f"}

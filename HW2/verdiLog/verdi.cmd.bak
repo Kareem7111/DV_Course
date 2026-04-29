@@ -1,0 +1,139 @@
+verdiSetActWin -dock widgetDock_<Message>
+simSetSimulator "-vcssv" -exec "/home/st81/HW2/simv" -args
+debImport "-dbdir" "/home/st81/HW2/simv.daidir"
+debLoadSimResult /home/st81/HW2/waves.fsdb
+wvCreateWindow
+verdiWindowResize -win $_Verdi_1 "8" "31" "1143" "745"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiSetActWin -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "8" "31" "1143" "745"
+verdiWindowResize -win $_Verdi_1 "1" "31" "766" "784"
+srcDeselectAll -win $_nTrace1
+srcSelect -inst "dut" -line 8 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcHBSelect "tb" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcSetScope "tb.dut" -delim "." -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcSetScope "tb.dut" -delim "." -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_0" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_1" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_1" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_1" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_2" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_2" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_2" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_2" -win $_nTrace1
+srcHBAddObjectToWave -clipboard
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 6.731362
+verdiSetActWin -win $_nWave2
+wvSetCursor -win $_nWave2 4.815717
+srcHBSelect "tb" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "tb.dut" -win $_nTrace1
+srcSetScope "tb.dut" -delim "." -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcSetScope "tb.dut" -delim "." -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcSetScope "tb" -delim "." -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcSetScope "tb.dut" -delim "." -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcSetScope "tb.dut" -delim "." -win $_nTrace1
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_0" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_1" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_1" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_1" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_2" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_2" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_2" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_1" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_1" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_1" -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcSetScope "tb.unnamed\$\$_0" -delim "." -win $_nTrace1
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+verdiWindowResize -win $_Verdi_1 "8" "31" "1143" "745"
+srcSignalView -on
+verdiSetActWin -dock widgetDock_<Signal_List>
+srcSignalViewSelect "tb.unnamed\$\$_0.i\[31:0\]"
+srcSignalViewSelect "tb.unnamed\$\$_0.i\[31:0\]"
+srcSignalViewAddSelectedToWave -win $_nTrace1
+verdiDockWidgetHide -dock widgetDock_<Signal_List>
+srcSignalView -off
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcCreateSourceTab -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_2
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcCloseSourceTab -win $_nTrace1 -tab 2
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowResize -win $_Verdi_1 "8" "31" "1143" "745"
+verdiWindowResize -win $_Verdi_1 "769" "31" "766" "784"
+verdiSetActWin -win $_nWave2
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb"
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"unnamed$$_2" \
+}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"unnamed$$_2" \
+}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"unnamed$$_2" \
+}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"unnamed$$_2" \
+}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"unnamed$$_2" \
+}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"unnamed$$_2" \
+}
+wvSetPosition -win $_nWave2 {("unnamed$$_2" 0)}
+wvGetSignalClose -win $_nWave2
+wvSetCursor -win $_nWave2 0.121613
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 0.221322
+wvSetCursor -win $_nWave2 0.221322
+wvSetCursor -win $_nWave2 0.221322
+wvSetCursor -win $_nWave2 0.221322
+verdiDockWidgetRestore -dock windowDock_nWave_2
+debExit

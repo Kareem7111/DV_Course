@@ -1,0 +1,41 @@
+Command Line: /usr/synopsys/verdi/T-2022.06-SP2/platform/LINUXAMD64/bin/Novas -f flist.f -ssf waves.fsdb
+uname(Linux synopsys.stbzu.edu 3.10.0-1160.83.1.el7.x86_64 #1 SMP Mon Dec 19 10:44:06 UTC 2022 x86_64)
+type= DS_SIGNAL element= 9 field= 2
+VERILOG tb
+VERILOG data_read_queue[0]
+-----
+second field= signal
+VERILOG tb
+VERILOG clk
+-----
+second field= signal
+VERILOG tb
+VERILOG read
+-----
+second field= signal
+VERILOG tb
+VERILOG write
+-----
+second field= signal
+VERILOG tb
+VERILOG address
+-----
+second field= signal
+VERILOG tb
+VERILOG data_in
+-----
+second field= signal
+VERILOG tb
+VERILOG data_out
+-----
+second field= signal
+VERILOG tb
+VERILOG data_read_queue[0:0]
+-----
+second field= signal
+VERILOG tb
+VERILOG i
+-----
+second field= signal
+type= DS_STRING
+data_read_queue[0] clk read write address data_in data_out data_read_queue[0:0] i

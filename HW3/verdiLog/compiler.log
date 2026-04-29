@@ -1,0 +1,220 @@
+*design* DebussyLib (btIdent Verdi_T-2022.06-SP2)
+Command arguments:
+    +define+verilog
+    -f flist.f
+        +incdir+./design
+        +incdir+./verif
+        ./design/adder.sv
+        ./verif/adder_tb.sv
+
+
+*Error* Syntax error at clk
+"./design/adder.sv", 4: 
+
+*Error* Syntax error at [
+"./design/adder.sv", 10: 
+
+*Error* Syntax error at [
+"./design/adder.sv", 11: 
+
+*Error* Syntax error at @
+"./design/adder.sv", 14: 
+
+*Error* failed to find symbol 'i'
+"./design/adder.sv", 16: 
+
+*Error* Syntax error at ++
+"./design/adder.sv", 16: 
+
+*Error* Syntax error at [
+"./design/adder.sv", 17: 
+
+*Error* Syntax error at end
+"./design/adder.sv", 18: 
+
+*Error* Syntax error at end
+"./design/adder.sv", 19: 
+
+*Error* Syntax error at else
+"./design/adder.sv", 20: 
+
+*Error* Syntax error at [
+"./design/adder.sv", 21: 
+
+*Error* failed to find symbol 'i'
+"./design/adder.sv", 22: 
+
+*Error* Syntax error at ++
+"./design/adder.sv", 22: 
+
+*Error* Syntax error at [
+"./design/adder.sv", 23: 
+
+*Error* Syntax error at end
+"./design/adder.sv", 24: 
+
+*Error* Syntax error at end
+"./design/adder.sv", 25: 
+
+*Error* Syntax error at end
+"./design/adder.sv", 26: 
+
+*Error* invalid LHS in initial part of for statement
+"./design/adder.sv", 22: 
+
+*Error* missing step assignment in for assignment
+"./design/adder.sv", 22: 
+
+*Error* Syntax error at ;
+"./verif/adder_tb.sv", 3: 
+
+*Error* Syntax error at ;
+"./verif/adder_tb.sv", 4: 
+
+*Error* Syntax error at [
+"./verif/adder_tb.sv", 5: 
+
+*Error* Syntax error at [
+"./verif/adder_tb.sv", 6: 
+
+*Error* Syntax error at [
+"./verif/adder_tb.sv", 9: 
+
+*Error* Syntax error at [
+"./verif/adder_tb.sv", 10: 
+
+*Error* Syntax error at [
+"./verif/adder_tb.sv", 11: 
+
+*Error* Syntax error at [
+"./verif/adder_tb.sv", 12: 
+
+*Error* Syntax error at [
+"./verif/adder_tb.sv", 15: 
+
+*Error* Syntax error at i
+"./verif/adder_tb.sv", 38: 
+
+*Error* Syntax error at <
+"./verif/adder_tb.sv", 38: 
+
+*Error* Syntax error at ++
+"./verif/adder_tb.sv", 38: 
+
+*Error* Syntax error at fork
+"./verif/adder_tb.sv", 47: 
+
+*Error* Syntax error at join
+"./verif/adder_tb.sv", 51: 
+
+*Error* Syntax error at end
+"./verif/adder_tb.sv", 52: 
+
+*Warning* symbol driver duplicated
+"./verif/adder_tb.sv", 55: 
+
+*Warning* symbol monitor duplicated
+"./verif/adder_tb.sv", 64: 
+
+*Warning* symbol checker duplicated
+"./verif/adder_tb.sv", 73: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/adder_tb.sv", 27: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/adder_tb.sv", 32: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/adder_tb.sv", 33: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/adder_tb.sv", 33: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/adder_tb.sv", 35: 
+
+*Error* missing end in for statement
+"./verif/adder_tb.sv", 38: 
+
+*Error* missing initial in for statement
+"./verif/adder_tb.sv", 38: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/adder_tb.sv", 28: 
+Highest level modules:
+adder_tb
+
+
+*Error* failed to find identifier in1
+"./design/adder.sv", 13: 
+
+*Error* failed to find identifier in2
+"./design/adder.sv", 13: 
+
+*Error* failed to find identifier reset
+"./design/adder.sv", 15: 
+
+*Error* failed to find identifier sum_pipe[4]
+"./design/adder.sv", 27: 
+
+*Error* failed to find identifier int
+"./verif/adder_tb.sv", 38: 
+
+*Error* failed to find identifier i
+"./verif/adder_tb.sv", 38: 
+
+*Error* failed to find identifier i
+"./verif/adder_tb.sv", 38: 
+
+*Error* failed to find identifier a
+"./verif/adder_tb.sv", 39: 
+
+*Error* failed to find identifier b
+"./verif/adder_tb.sv", 40: 
+
+*Error* failed to find identifier in_q1.push_back
+"./verif/adder_tb.sv", 41: 
+
+*Error* failed to find identifier a
+"./verif/adder_tb.sv", 41: 
+
+*Error* failed to find identifier in_q2.push_back
+"./verif/adder_tb.sv", 42: 
+
+*Error* failed to find identifier b
+"./verif/adder_tb.sv", 42: 
+
+*Error* failed to find identifier expected_q.push_back
+"./verif/adder_tb.sv", 43: 
+
+*Error* failed to find identifier a
+"./verif/adder_tb.sv", 43: 
+
+*Error* failed to find identifier b
+"./verif/adder_tb.sv", 43: 
+
+*Error* failed to find port 'clk' for instance 'dut'
+"./verif/adder_tb.sv", 19: 
+
+*Error* failed to find port 'reset' for instance 'dut'
+"./verif/adder_tb.sv", 20: 
+
+*Error* failed to find port 'in1' for instance 'dut'
+"./verif/adder_tb.sv", 21: 
+
+*Error* failed to find port 'in2' for instance 'dut'
+"./verif/adder_tb.sv", 22: 
+
+*Error* failed to find port 'sum' for instance 'dut'
+"./verif/adder_tb.sv", 23: 
+
+*Error* view driver is not defined for instance driver
+"./verif/adder_tb.sv", 48: 
+
+*Error* view monitor is not defined for instance monitor
+"./verif/adder_tb.sv", 49: 
+
+*Error* view checker is not defined for instance checker
+"./verif/adder_tb.sv", 50: 
+Total	66 error(s),   3 warning(s)

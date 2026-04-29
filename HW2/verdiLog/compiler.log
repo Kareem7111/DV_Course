@@ -1,0 +1,274 @@
+*design* DebussyLib (btIdent Verdi_T-2022.06-SP2)
+Command arguments:
+    +define+verilog
+    -f flist.f
+        +incdir+./design
+        +incdir+./verif
+        ./design/my_mem.sv
+        ./verif/tb.sv
+
+
+*Error* Syntax error at logic
+"./design/my_mem.sv", 2: 
+
+*Error* Syntax error at [
+"./design/my_mem.sv", 10: 
+
+*Error* Syntax error at ,
+"./verif/tb.sv", 3: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 4: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 5: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 6: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 19: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 20: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 21: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 22: 
+
+*Error* Syntax error at =
+"./verif/tb.sv", 24: 
+
+*Error* Syntax error at i
+"./verif/tb.sv", 33: 
+
+*Error* Syntax error at <
+"./verif/tb.sv", 33: 
+
+*Error* Syntax error at ++
+"./verif/tb.sv", 33: 
+
+*Error* Syntax error at =
+"./verif/tb.sv", 45: 
+
+*Error* failed to find symbol 'int'
+"./verif/tb.sv", 48: 
+
+*Error* Syntax error at i
+"./verif/tb.sv", 48: 
+
+*Error* Syntax error at @
+"./verif/tb.sv", 49: 
+
+*Error* Syntax error at =
+"./verif/tb.sv", 50: 
+
+*Error* Syntax error at =
+"./verif/tb.sv", 51: 
+
+*Error* Syntax error at =
+"./verif/tb.sv", 52: 
+
+*Error* Syntax error at @
+"./verif/tb.sv", 53: 
+
+*Error* Syntax error at .
+"./verif/tb.sv", 55: 
+
+*Error* Syntax error at $display
+"./verif/tb.sv", 58: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 59: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 60: 
+
+*Error* Syntax error at [
+"./verif/tb.sv", 61: 
+
+*Error* Syntax error at ++
+"./verif/tb.sv", 62: 
+
+*Error* Syntax error at end
+"./verif/tb.sv", 63: 
+
+*Error* Syntax error at end
+"./verif/tb.sv", 64: 
+
+*Error* Syntax error at =
+"./verif/tb.sv", 65: 
+
+*Error* Syntax error at $display
+"./verif/tb.sv", 68: 
+
+*Error* Syntax error at $display
+"./verif/tb.sv", 70: 
+
+*Error* Syntax error at $display
+"./verif/tb.sv", 72: 
+
+*Error* Syntax error at $finish
+"./verif/tb.sv", 73: 
+
+*Error* Syntax error at end
+"./verif/tb.sv", 74: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 33: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 33: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 34: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 35: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 36: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 36: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 39: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 40: 
+
+*Error* i is referenced before declaration
+"./verif/tb.sv", 57: 
+
+*Error* unknown memory in data_read_queue
+"./verif/tb.sv", 69: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 15: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 27: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 27: 
+
+*Error* missing end in for statement
+"./verif/tb.sv", 33: 
+
+*Error* missing initial in for statement
+"./verif/tb.sv", 33: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 39: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 40: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 41: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 42: 
+
+*Error* illegal LHS in procedural assignment
+"./verif/tb.sv", 16: 
+
+*Error* missing end in for statement
+"./verif/tb.sv", 48: 
+
+*Error* missing initial in for statement
+"./verif/tb.sv", 48: 
+Highest level modules:
+tb
+
+
+*Error* failed to find identifier clk
+"./design/my_mem.sv", 12: 
+
+*Error* failed to find identifier write
+"./design/my_mem.sv", 13: 
+
+*Error* failed to find identifier address
+"./design/my_mem.sv", 14: 
+
+*Error* failed to find identifier mem_array[address]
+"./design/my_mem.sv", 14: 
+
+*Error* failed to find identifier data_in
+"./design/my_mem.sv", 14: 
+
+*Error* failed to find identifier data_in
+"./design/my_mem.sv", 14: 
+
+*Error* failed to find identifier read
+"./design/my_mem.sv", 15: 
+
+*Error* failed to find identifier data_out
+"./design/my_mem.sv", 16: 
+
+*Error* failed to find identifier address
+"./design/my_mem.sv", 16: 
+
+*Error* failed to find identifier mem_array[address]
+"./design/my_mem.sv", 16: 
+
+*Error* failed to find identifier address_array
+"./verif/tb.sv", 29: 
+
+*Error* failed to find identifier data_to_write_array
+"./verif/tb.sv", 30: 
+
+*Error* failed to find identifier int
+"./verif/tb.sv", 33: 
+
+*Error* failed to find identifier address_array[i]
+"./verif/tb.sv", 34: 
+
+*Error* failed to find identifier data_to_write_array[i]
+"./verif/tb.sv", 35: 
+
+*Error* failed to find identifier address_array[i]
+"./verif/tb.sv", 36: 
+
+*Error* failed to find identifier data_read_expect_assoc[address_array[i]]
+"./verif/tb.sv", 36: 
+
+*Error* failed to find identifier data_to_write_array[i]
+"./verif/tb.sv", 36: 
+
+*Error* failed to find identifier address_array[i]
+"./verif/tb.sv", 39: 
+
+*Error* failed to find identifier data_to_write_array[i]
+"./verif/tb.sv", 40: 
+
+*Error* failed to find identifier address_array[i]
+"./verif/tb.sv", 57: 
+
+*Error* failed to find identifier data_read_expect_assoc[address_array[i]]
+"./verif/tb.sv", 57: 
+
+*Error* failed to find port 'clk' for instance 'dut'
+"./verif/tb.sv", 9: 
+
+*Error* failed to find port 'write' for instance 'dut'
+"./verif/tb.sv", 9: 
+
+*Error* failed to find port 'read' for instance 'dut'
+"./verif/tb.sv", 9: 
+
+*Error* failed to find port 'data_in' for instance 'dut'
+"./verif/tb.sv", 10: 
+
+*Error* failed to find port 'address' for instance 'dut'
+"./verif/tb.sv", 10: 
+
+*Error* failed to find port 'data_out' for instance 'dut'
+"./verif/tb.sv", 11: 
+
+*Error* view foreach is not defined for instance foreach
+"./verif/tb.sv", 69: 
+Total	87 error(s),   0 warning(s)

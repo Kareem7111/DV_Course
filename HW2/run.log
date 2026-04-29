@@ -1,0 +1,26 @@
+Command: /home/st81/HW2/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP2_Full64; Runtime version T-2022.06-SP2_Full64;  Apr 11 13:17 2026
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06-SP2, Linux x86_64/64bit, 11/22/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'waves.fsdb'
+*Verdi* : Begin traversing the scope (tb), layer (0).
+*Verdi* : End of traversing.
+
+=== data_read_queue ===
+  [0] = 8'h45
+  [1] = 8'ha4
+  [2] = 8'h98
+  [3] = 8'h63
+  [4] = 8'hdb
+  [5] = 8'hcd
+
+Error Counter = 0
+$finish called from file "./verif/tb.sv", line 73.
+$finish at simulation time                  126
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 126
+CPU Time:      0.400 seconds;       Data structure size:   0.0Mb
+Sat Apr 11 13:17:24 2026
